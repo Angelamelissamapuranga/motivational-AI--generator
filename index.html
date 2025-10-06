@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src /style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Motivational Qoutes</title>
   </head>
   <body>
@@ -19,14 +20,11 @@
             autofocus
             required
             class="submit-form"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Roses are required
-          <br />
-          Violets are blue
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI Motivational Generator was coded by
